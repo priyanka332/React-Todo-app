@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(90deg, rgb(243, 144, 131) 0%, rgb(226, 25, 19) 100%); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.main_div {
+  overflow: auto;
+  overflow-x: hidden;
+  background: fixed;
+  background: linear-gradient(90deg, rgb(226, 25, 19) 0%, rgb(243, 144, 131) 100%);
+  border: 2px solid rgb(253, 158, 158);
+  border-radius: 0.8rem;
+  height: 500px;
+  width: 350px;
+  justify-content: center;
+  margin-left: 38%;
+  margin-top: 4rem;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 650px) {
+  .main_div {
+  	width: 250px;
+    margin-left: 0rem;
+  }
+  body {
+    background-color: white;
+    margin-bottom: 4rem;
+  }
+}
+
+.main_div:hover {
+  box-shadow: 7px 7px 50px rgb(22, 11, 11);
+  border: 2px solid rgb(252, 245, 245);
+  border-radius: 1rem;
+  transition: 1s;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  border: 1px solid transparent;
+  box-shadow: 8px 8px 25px ;
+  width: 60%;
+  margin-left: 4rem;
+}
+
+input {
+  padding: 0.6rem 2.5rem;
+  padding-top: 0.9rem;
+  justify-content: center;
+  background-color: rgb(233, 225, 225);
+  border: none;
+  font-size: 14px;
+  font-style: italic;
+}
+
+input:hover {
+  box-shadow: 10px 10px 30px black
+}
+
+.btn {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button {
+  border: 0.5px solid rgb(14, 11, 11);
+  border-radius: 50%;
+  padding: 0.2rem 0.6rem;
+  margin-left: 0.6rem;
+  background-color: rgb(253, 174, 174);
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 8px 8px 20px rgb(27, 26, 26);
+}
+
+li {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+  margin-top: 0.8rem;
+  font-size: large;
+  font-weight: 700;
+}
+
+i {
+  float: left;
+  margin-left: -1rem;
+  margin-right: 0.7rem;
+  border-radius: 50%;
+  padding: 3px 4px;
+  background-color: #fff;
+  font-size: large;
+}
+
+i:hover {
+  background-color: rgb(158, 6, 6);
+}
